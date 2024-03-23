@@ -4,13 +4,32 @@ body {
     background-color: #ffffff;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
 ul,
 ol {
     list-style-type: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 0;
 }
 
 a {
     text-decoration: none;
+    color: currentColor;
+}
+
+address {
+    font-style: normal;
 }
 
 button {
@@ -18,11 +37,10 @@ button {
 }
 
 .container {
-    max-width: 100%;
-    /* padding-left: ;
-    padding-right: ;
-    margin-left: ;
-    margin-right: ; */
+    width: 1138px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .navigation {}
