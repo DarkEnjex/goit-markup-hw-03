@@ -4,51 +4,20 @@ body {
     background-color: #ffffff;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    margin-bottom: 0;
-    margin-top: 0;
-}
-
 ul,
 ol {
     list-style-type: none;
-    margin-bottom: 0;
-    margin-top: 0;
-    padding-left: 0;
 }
 
 a {
     text-decoration: none;
-    color: currentColor;
-}
-
-address {
-    font-style: normal;
 }
 
 button {
     cursor: pointer;
 }
 
-.container {
-    /* display: flex; */
-    width: 1138px;
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.navigation {
-    display: flex;
-    flex-direction: row;
-
-}
+.navigation {}
 
 .navigation-logo {
     font-family: "Raleway", sans-serif;
@@ -86,8 +55,6 @@ span {
 
 .address {
     font-style: normal;
-    display: flex;
-    flex-direction: row;
 }
 
 .address-link {
@@ -107,7 +74,6 @@ span {
 
 .solutions {
     background-color: #2e2f42;
-    height: 600px;
 }
 
 .solutions-title {
@@ -117,23 +83,15 @@ span {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    width: 496px;
-    margin-bottom: 48px;
 }
 
 .solutions-btn {
     font-family: "Roboto", sans-serif;
-    font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
     background-color: #4D5AE5;
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .solutions-btn:hover,
