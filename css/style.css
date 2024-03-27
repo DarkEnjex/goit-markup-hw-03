@@ -4,20 +4,64 @@ body {
     background-color: #ffffff;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
 ul,
 ol {
     list-style-type: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 0;
 }
 
 a {
     text-decoration: none;
+    color: currentColor;
+}
+
+address {
+    font-style: normal;
 }
 
 button {
     cursor: pointer;
 }
 
-.navigation {}
+.container {
+    /* max-width: 1158px; */
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+/* *------------ HEADER ----------------* */
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.navigation-header {
+    /* display: flex; */
+}
+
+.navigation {
+    /* display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: flex-start;
+    margin-left: 15px; */
+}
 
 .navigation-logo {
     font-family: "Raleway", sans-serif;
@@ -28,6 +72,8 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    /* display: flex;
+    align-items: center; */
 }
 
 .navigation-logo:hover,
@@ -38,6 +84,13 @@ button {
 span {
     color: #2e2f42;
 }
+
+.navigation-menu {
+    /* display: flex;
+    gap: 40px; */
+}
+
+.navigation-item {}
 
 .navigation-link {
     font-weight: 500;
@@ -57,6 +110,14 @@ span {
     font-style: normal;
 }
 
+.address-menu {
+    /* display: flex;
+    gap: 40px;
+    margin-right: 15px; */
+}
+
+.address-item {}
+
 .address-link {
     font-style: normal;
     font-weight: 400;
@@ -72,8 +133,16 @@ span {
     text-decoration: underline;
 }
 
+/* *------------ MAIN --------------* */
+
+/* ? ----------- Solutions ---------- */
+
 .solutions {
     background-color: #2e2f42;
+}
+
+.solutions-wrap {
+    padding: 188px 316px 188px 316px;
 }
 
 .solutions-title {
@@ -83,6 +152,9 @@ span {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
 }
 
 .solutions-btn {
@@ -99,7 +171,12 @@ span {
     background-color: #404BBF;
 }
 
-.advantages {}
+/* ? ------- Advantages ------- */
+
+.advantages {
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
 
 .advantages-items {}
 
@@ -109,6 +186,7 @@ span {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .advantages-text {
@@ -117,10 +195,15 @@ span {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    max-width: 264px;
 }
+
+/* ? ----------- Team -----------  */
 
 .team {
     background-color: #f4f4fd;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .team-title {
@@ -131,7 +214,12 @@ span {
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
+    max-width: 162px;
+    margin: 0 auto;
+    margin-bottom: 72px;
 }
+
+.team-menu {}
 
 .team-items {
     background-color: #FFFFFF
@@ -146,6 +234,8 @@ span {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    padding-top: 32px;
+    padding-bottom: 8px;
 }
 
 .team-text {
@@ -155,9 +245,16 @@ span {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+    padding-top: 8px;
+    padding-bottom: 32px;
 }
 
-.partfolio {}
+/* ? ------------ Partfolio ------------ */
+
+.partfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 .partfolio-title {
     font-weight: 700;
@@ -167,6 +264,9 @@ span {
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
+    max-width: 220px;
+    margin: 0 auto;
+    margin-bottom: 72px;
 }
 
 .partfolio-items {}
@@ -179,6 +279,8 @@ span {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-top: 32px;
+    padding-bottom: 8px;
 }
 
 .partfolio-text {
@@ -187,12 +289,16 @@ span {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding-top: 8px;
+    padding-bottom: 32px;
 }
 
-/* footer */
+/* *------------ FOOTER ----------------* */
 
 .footer {
     background-color: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .footer-logo {
@@ -220,4 +326,6 @@ span {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    max-width: 264px;
+    padding-top: 16px;
 }
