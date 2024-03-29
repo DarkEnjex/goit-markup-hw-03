@@ -238,7 +238,12 @@ span {
     padding-bottom: 120px;
 }
 
-.team-container {}
+.team-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* padding: 24px 0; */
+}
 
 .team-title {
     font-weight: 700;
@@ -252,13 +257,9 @@ span {
     margin-bottom: 72px;
 }
 
-.team-container {
+.team-menu {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
     gap: 24px;
-    padding: 24px 0;
-    width: calc((100% - 72px) / 4);
 }
 
 .team-items {
@@ -266,7 +267,9 @@ span {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
     border-radius: 0px 0px 4px 4px;
-    padding: 32px 0;
+    /* padding: 32px 0; */
+    flex-basis: calc((100% - 3 * 24px) / 4);
+
 }
 
 .team-img {
@@ -281,7 +284,9 @@ span {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    padding: 32px 0;
     margin-bottom: 8px;
+    text-align: center;
 }
 
 .team-text {
@@ -291,6 +296,7 @@ span {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+    text-align: center;
 }
 
 /* ? ------------ Partfolio ------------ */
