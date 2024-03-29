@@ -52,7 +52,6 @@ button {
 /* *------------ HEADER ----------------* */
 
 .header {
-    padding: 24px 0;
     border-bottom: 1px solid #e7e9fc;
 }
 
@@ -60,6 +59,7 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 24px 0;
 }
 
 .navigation {
@@ -141,10 +141,10 @@ span {
 
 .solutions {
     background-color: #2e2f42;
+    padding: 188px 0;
 }
 
 .solutions-wrap {
-    padding: 188px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -191,19 +191,15 @@ span {
 
 }
 
-.our-advantages-title {
-    visibility: hidden;
-}
-
 .advantages-menu {
     display: flex;
     justify-content: center;
     flex-direction: row;
     align-items: flex-start;
+    gap: 24px;
 }
 
 .advantages-items {
-    gap: 24px;
     width: calc((100% - 72px) / 4);
 }
 
@@ -247,21 +243,21 @@ span {
     margin-bottom: 72px;
 }
 
-
+.team-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 24px 0;
+    width: calc((100% - 72px) / 4);
+}
 
 .team-items {
     background-color: #FFFFFF;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
     border-radius: 0px 0px 4px 4px;
-}
-
-.team-menu {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 24px;
-    padding: 24px 0;
+    padding: 32px 0;
 }
 
 .team-img {
@@ -276,8 +272,7 @@ span {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    padding-top: 32px;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .team-text {
@@ -287,8 +282,6 @@ span {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
-    padding-top: 8px;
-    padding-bottom: 32px;
 }
 
 /* ? ------------ Partfolio ------------ */
