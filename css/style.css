@@ -117,10 +117,12 @@ span {
 .address-menu {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
+
 }
 
-.address-item {}
+.address-item {
+    padding: 24px 0;
+}
 
 .address-link {
     font-style: normal;
@@ -129,6 +131,7 @@ span {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+
 }
 
 .address-link:hover,
