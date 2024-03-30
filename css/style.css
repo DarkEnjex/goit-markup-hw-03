@@ -262,32 +262,38 @@ span {
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     margin-bottom: 72px;
 }
 
 .team-menu {
     gap: 24px;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between;
     flex-wrap: wrap;
     padding: 32px 0;
-    padding-bottom: 32px;
+    padding-bottom: 32px; */
+
 }
 
 .team-items {
     background-color: #FFFFFF;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
+    /* padding: 32px 0; */
+    /* padding: 32px 0; */
+    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
-    padding: 32px 0;
-    flex-basis: calc((100% - 3 * 24px) / 4);
-    padding: 32px 0;
 }
 
 .team-img {
-    max-width: 100%;
+    /* max-width: 100%; */
     /* object-fit: cover; */
+}
+
+.team-name-text {
+    padding: 32px 0;
+
 }
 
 .team-name {
@@ -295,10 +301,12 @@ span {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
+    /* text-align: center; */
     color: #2e2f42;
-    margin-bottom: 8px;
+    /* margin-bottom: 8px; */
+    /* text-align: center; */
     text-align: center;
+    margin-bottom: 8px;
 }
 
 .team-text {
@@ -306,8 +314,9 @@ span {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: center;
+    /* text-align: center; */
     color: #434455;
+    text-align: center;
 }
 
 /* ? ------------ Partfolio ------------ */
@@ -317,13 +326,6 @@ span {
     padding-bottom: 120px;
 }
 
-/* .partfolio-container {
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
-
-} */
-
 .partfolio-title {
     font-weight: 700;
     font-size: 36px;
@@ -332,20 +334,14 @@ span {
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
-    /* max-width: 220px; */
-    margin: 0 auto;
     margin-bottom: 72px;
 }
 
 .partfolio-menu {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    /* margin-bottom: 8px; */
-    /* border: 1px solid #e7e9fc; */
-
 }
 
 .partfolio-items {
@@ -353,8 +349,7 @@ span {
     width: 360px;
     height: 420px;
     background: #fff;
-    /* margin: 48px 24px; */
-    /* margin-bottom: 48px; */
+    width: calc((100% - 48px) / 3);
     border-top: none;
     margin-bottom: 8px;
 }
@@ -364,15 +359,18 @@ span {
     object-fit: cover;
 }
 
+.partfolio-name-text {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
 .partfolio-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding-top: 32px;
-    padding-bottom: 8px;
-    padding-left: 16px;
 }
 
 .partfolio-text {
@@ -381,9 +379,6 @@ span {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    padding-top: 8px;
-    padding-bottom: 32px;
-    padding-left: 16px;
 }
 
 /* *------------ FOOTER ----------------* */
