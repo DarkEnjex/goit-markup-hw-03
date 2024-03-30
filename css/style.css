@@ -105,11 +105,12 @@ span {
 .navigation-menu {
     display: flex;
     gap: 40px;
+}
+
+.navigation-item {
     padding-top: 24px;
     padding-bottom: 24px;
 }
-
-.navigation-item {}
 
 .navigation-link {
     font-weight: 500;
